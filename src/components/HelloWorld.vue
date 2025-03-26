@@ -1,15 +1,19 @@
 <script setup>
 import { ref } from 'vue'
 
-defineProps({
-  msg: String,
-})
+const bienvenida = ref("Bienvenidos a la seccion de condicionales")
+const nombre = ref ("Maribel")
+const apellidos = ref ("Santiago Bautista" )
+// defineProps({
+//   msg: String,
+// })
 
-const count = ref(0)
 </script>
 
 <template>
- 
+ <h2>{{bienvenida}}</h2>
+
+
 </template>
 
 <style scoped>
