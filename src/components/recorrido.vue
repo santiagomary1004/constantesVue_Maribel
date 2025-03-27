@@ -27,7 +27,7 @@
     </ul>
 </div>
 </template>
-<style>
+<!-- <style>
 h3{
     color:white;
     background-color: rgb(205, 132, 239);
@@ -47,4 +47,4 @@ li{
     margin: 10px;
     text-align:justify;
 }
-</style>
+</style> -->
