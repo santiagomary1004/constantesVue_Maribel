@@ -22,7 +22,7 @@
 </script>
 <template>
     <div class="container">
-    <h3 class="mt-4">Lista de alumnos</h3>
+    <h3 class="mt-4">Datos de los alumnos</h3>
     <ul>
         <li v-for="datalum in datalum1" :key="datalum.id">
             <strong>{{ datalum.nombre }} {{ datalum.apaterno }} {{ datalum.amaterno }} </strong> -
